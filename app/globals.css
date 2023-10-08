@@ -12,5 +12,5 @@ a {
 }
 
 .container {
-  @apply mx-auto px-4 min-h-screen max-w-[1366px] px-[60px] flex flex-col justify-between;
+  @apply mx-auto min-h-screen max-w-[1366px] px-[60px] flex flex-col justify-between;
 }
