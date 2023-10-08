@@ -30,3 +30,26 @@ export const links = [
     url: "/dashboard",
   },
 ];
+
+export const icons = [
+  {
+    id: 1,
+    url: "/1.png",
+    alt: "",
+  },
+  {
+    id: 2,
+    url: "/2.png",
+    alt: "",
+  },
+  {
+    id: 3,
+    url: "/3.png",
+    alt: "",
+  },
+  {
+    id: 4,
+    url: "/4.png",
+    alt: "",
+  },
+];
