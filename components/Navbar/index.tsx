@@ -8,7 +8,7 @@ const Navbar = () => {
       <Link className="font-bold text-[22px]" href="/">lamamia</Link>
       <div className="flex items-center gap-5">
         {links.map((link) => (
-          <Link key={link.id} href={link.url}>
+          <Link className="hover:text-gray-400" key={link.id} href={link.url}>
             {link.title}
           </Link>
         ))}
