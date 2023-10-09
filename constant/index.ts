@@ -58,16 +58,19 @@ export const portfolioLinks = [
   {
     id: 1,
     url: "/portfolio/Illustrations",
-    text: "Illustrations"
+    text: "illustrations",
+    bg_img: "bg-illustrations",
   },
   {
     id: 2,
     url: "/portfolio/Websites",
-    text: "Websites"
+    text: "Websites",
+    bg_img: "bg-Websites",
   },
   {
     id: 3,
     url: "/portfolio/Application",
-    text: "Application"
-  }
-]
+    text: "Application",
+    bg_img: "bg-Application",
+  },
+];

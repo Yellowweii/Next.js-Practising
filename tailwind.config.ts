@@ -1,3 +1,4 @@
+import { url } from "inspector";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -5,6 +6,9 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
+        'illustrations': 'url("/illustration.png")',
+        'Websites': 'url("/websites.jpg")',
+        'Application': 'url("/apps.jpg")',
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
