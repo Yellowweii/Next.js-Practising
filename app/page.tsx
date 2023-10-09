@@ -10,7 +10,7 @@ export default function Home() {
         <Button text="See Our Works" url="/portfolio" />
       </div>
       <div>
-        <Image className="object-contain" src="/hero.png" alt="hero" width={1000} height={500} />
+        <Image className="object-contain animate-move" src="/hero.png" alt="hero" width={1000} height={500} />
       </div>
     </main>
   );

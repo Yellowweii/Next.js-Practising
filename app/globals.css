@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-
-html, body {
+html,
+body {
   @apply max-w-[100vw] overflow-x-hidden bg-black text-slate-300;
 }
 
@@ -13,4 +13,8 @@ a {
 
 .container {
   @apply mx-auto min-h-screen max-w-[1366px] px-[60px] flex flex-col justify-between;
+}
+
+.inputStyle {
+  @apply p-5 bg-transparent border-0 outline-0 border-[3px] border-[#bbb] text-[#bbb] text-[20px] font-bold;
 }

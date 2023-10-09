@@ -53,3 +53,21 @@ export const icons = [
     alt: "",
   },
 ];
+
+export const portfolioLinks = [
+  {
+    id: 1,
+    url: "/portfolio/Illustrations",
+    text: "Illustrations"
+  },
+  {
+    id: 2,
+    url: "/portfolio/Websites",
+    text: "Websites"
+  },
+  {
+    id: 3,
+    url: "/portfolio/Application",
+    text: "Application"
+  }
+]
