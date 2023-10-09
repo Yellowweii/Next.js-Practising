@@ -8,7 +8,7 @@ body {
 }
 
 a {
-  @apply text-inherit hover:text-slate-200;
+  @apply text-inherit ;
 }
 
 .container {
