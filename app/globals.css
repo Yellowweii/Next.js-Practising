@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-
-html, body {
+html,
+body {
   @apply max-w-[100vw] overflow-x-hidden bg-black text-slate-300;
 }
 
@@ -16,5 +16,5 @@ a {
 }
 
 .inputStyle {
-  @apply p-5 bg-transparent border-0 outline-0 border-[3px] border-[#bbb] text-[#bbb] text-[20px] font-bold
+  @apply p-5 bg-transparent outline-0 border-[3px] border-[#bbb] text-[#bbb] text-[20px] font-bold;
 }
