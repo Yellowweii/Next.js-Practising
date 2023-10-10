@@ -1,6 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Footer, Navbar } from "@/components";
+import { ThemeProvider } from "@/context";
 
 export const metadata: Metadata = {
   title: "Next App",
@@ -10,10 +11,14 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className="container">
-        <Navbar />
-        {children}
-        <Footer />
+      <body>
+        <ThemeProvider>
+          <div className="container">
+            <Navbar />
+            {children}
+            <Footer />
+          </div>
+        </ThemeProvider>
       </body>
     </html>
   );

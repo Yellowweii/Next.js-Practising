@@ -8,7 +8,7 @@ body {
 }
 
 a {
-  @apply text-inherit ;
+  @apply text-inherit;
 }
 
 .container {
@@ -17,4 +17,16 @@ a {
 
 .inputStyle {
   @apply p-5 bg-transparent outline-0 border-[3px] border-[#bbb] text-[#bbb] text-[20px] font-bold;
+}
+
+.light {
+  @apply bg-white text-[#111];
+}
+
+.dark {
+  @apply bg-black text-[#bbb];
+}
+
+.theme {
+  @apply transition-colors duration-1000 ease-in;
 }
